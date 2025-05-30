@@ -123,7 +123,7 @@ const closeSidebar = () => { sidebarOpen.value = false; };
 .nav a:hover {
   color: #b23a6e;
 }
-/* Sidebar top styles */
+
 .sidebar-top {
   position: fixed;
   top: -100vh;
@@ -140,7 +140,7 @@ const closeSidebar = () => { sidebarOpen.value = false; };
   transition: top 0.3s;
 }
 .sidebar-top.open {
-  top: 90px; /* header ke niche */
+  top: 90px; 
 }
 .sidebar-top a {
   color: #fff;
@@ -164,7 +164,7 @@ const closeSidebar = () => { sidebarOpen.value = false; };
   background: rgba(0,0,0,0.2);
   z-index: 1199;
 }
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .nav {
     display: none;
